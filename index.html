@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Comments</title>
+    <script defer type="text/javascript" src='./app.js'></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="main-body">
+        <h1>Nested Comments</h1>
+        <div style="display:flex;margin-bottom:10px;">
+            <div>
+                <input type="text" placeholder="Name" id="name" class="name-handle" />
+            </div>
+            <div>
+                <input type="text" placeholder="handle" id="handle" class="name-handle" />
+            </div>
+        </div>
+        <div>
+            <textarea rows="5" id="comment" class="comment-box" placeholder="Join the discussion...."></textarea>
+            <div>
+                <button id="add-comment" class="add-btn">Submit</button>
+            </div>
+
+        </div>
+        <h3>Comments</h3>
+        <ul id="commentsList">
+
+        </ul>
+    </div>
+</body>
+
+</html>
